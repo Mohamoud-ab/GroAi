@@ -1,1 +1,6 @@
-import snap7;
+import snap7
+client = snap7.Client()
+print(client.get_connected())
+#client.connect("100.99.113.3", 0, 1)
+#data = client.db_read(1, 0, 4)
+#client.disconnect()
